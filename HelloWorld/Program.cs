@@ -46,10 +46,33 @@
 
 
 
-int x = 10;
-int y = 3;
-Console.WriteLine(x + y); // 13
-Console.WriteLine(x - y); // 7
-Console.WriteLine(x * y); // 30
-Console.WriteLine(x / y); // 3 (целочисленное деление!)
-Console.WriteLine(x % y); // 1 (остаток от деления)
+// int x = 10;
+// int y = 3;
+// Console.WriteLine(x + y); // 13
+// Console.WriteLine(x - y); // 7
+// Console.WriteLine(x * y); // 30
+// Console.WriteLine(x / y); // 3 (целочисленное деление!)
+// Console.WriteLine(x % y); // 1 (остаток от деления)
+
+
+
+string firstName = "Алексей";
+string lastName = "Изингер";
+string group = "ИСП-242";
+int birthYear = 2007;
+double gpa = 4.5;
+bool hasScholarship = true;
+
+int currentYear = 2026;
+int age = currentYear - birthYear;
+
+Console.WriteLine("Студенческое удостоверение");
+Console.WriteLine($"Имя: {firstName} {lastName}");
+Console.WriteLine($"Группа: {group}");
+Console.WriteLine($"Возраст: {age} лет");
+Console.WriteLine($"Средний балл: {gpa}");
+Console.WriteLine($"Стипендия: {hasScholarship}");
+
+Console.Write("\nВведите ваш любимый предмет: ");
+string subject = Console.ReadLine();
+Console.WriteLine($"Отлично! {firstName} любит {subject}.");
