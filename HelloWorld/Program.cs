@@ -100,22 +100,33 @@
 // Console.WriteLine(Math.Min(10, 25));
 // Console.WriteLine(Math.Round(3.567, 2));
 
-Console.WriteLine("Калькулятор");
-Console.Write("Введите первое число: ");
-double num1 = double.Parse(Console.ReadLine());
+// Console.WriteLine("Калькулятор");
+// Console.Write("Введите первое число: ");
+// double num1 = double.Parse(Console.ReadLine());
 
-Console.Write("Введите второе число: ");
-double num2 = double.Parse(Console.ReadLine());
+// Console.Write("Введите второе число: ");
+// double num2 = double.Parse(Console.ReadLine());
 
-Console.WriteLine($"Сумма: {num1 + num2}");
-Console.WriteLine($"Разность: {num1 - num2}");
-Console.WriteLine($"Произведение: {num1 * num2}");
+// Console.WriteLine($"Сумма: {num1 + num2}");
+// Console.WriteLine($"Разность: {num1 - num2}");
+// Console.WriteLine($"Произведение: {num1 * num2}");
 
-if (num2 != 0)
-{
-    Console.WriteLine($"Частное: {num1 / num2}");
-}
-else
-{
-    Console.WriteLine("Деление на ноль невозможно!");
-}
+// if (num2 != 0)
+// {
+//     Console.WriteLine($"Частное: {num1 / num2}");
+// }
+// else
+// {
+//     Console.WriteLine("Деление на ноль невозможно!");
+// }
+
+
+Console.WriteLine(int.MaxValue);
+Console.WriteLine(int.MinValue);
+Console.WriteLine(double.MaxValue);
+Console.WriteLine(double.MinValue);
+
+int metr1 = 1;
+System.Int32 metr2 = 1;
+
+
