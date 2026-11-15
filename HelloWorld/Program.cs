@@ -121,12 +121,52 @@
 // }
 
 
-Console.WriteLine(int.MaxValue);
-Console.WriteLine(int.MinValue);
-Console.WriteLine(double.MaxValue);
-Console.WriteLine(double.MinValue);
+// Console.WriteLine(int.MaxValue);
+// Console.WriteLine(int.MinValue);
+// Console.WriteLine(double.MaxValue);
+// Console.WriteLine(double.MinValue);
 
-int metr1 = 1;
-System.Int32 metr2 = 1;
+// int metr1 = 1;
+// System.Int32 metr2 = 1;
+
+
+// Console.WriteLine("Добро пожаловать в анкету!");
+
+
+// Console.Write("Введите ваше имя: ");
+// string name = Console.ReadLine();
+
+// Console.Write("Введите вашу фамилию: ");
+// string surname = Console.ReadLine();
+
+// Console.Write("Введите вашу группу: ");
+// string group = Console.ReadLine();
+
+// Console.Write("Введите ваш год рождения: ");
+// int birthYear = int.Parse(Console.ReadLine());
+
+// Console.Write("Введите ваш средний балл (например, 4.5): ");
+// double gpa = double.Parse(Console.ReadLine());
+
+
+// int currentYear = 2026;
+// int age = currentYear - birthYear;
+// bool isExcellent = gpa >= 4.5;
+
+
+// string status = isExcellent ? "Отличник" : "Хорошист";
+
+// Console.WriteLine("\nВаша анкета");
+// Console.WriteLine($"Имя: {name} {surname}");
+// Console.WriteLine($"Группа: {group}");
+// Console.WriteLine($"Возраст: {age} лет");
+// Console.WriteLine($"Средний балл: {gpa}");
+// Console.WriteLine($"Статус: {status}");
+// Console.WriteLine($"Лет до 30: {30 - age}");
+
+// Console.WriteLine("\nНажмите Enter для выхода...");
+// Console.ReadLine();
+
+
 
 
