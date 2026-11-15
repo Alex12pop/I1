@@ -18,16 +18,28 @@
 
 
 
-var city = "Москва"; // тип определится как string
-var year = 2026;     // тип определится как int
-var pi = 3.14159;    // тип определится как double
-var isActive = true; // тип определится как bool
+// var city = "Москва"; // тип определится как string
+// var year = 2026;     // тип определится как int
+// var pi = 3.14159;    // тип определится как double
+// var isActive = true; // тип определится как bool
 
 
 
-string myName = "Алексей";
-int myAge = 20;
-string myGroup = "ИСП-242";
+// string myName = "Алексей";
+// int myAge = 20;
+// string myGroup = "ИСП-242";
 
-Console.WriteLine($"Меня зовут {myName}, мне {myAge} лет, я учусь в группе {myGroup}.");
+// Console.WriteLine($"Меня зовут {myName}, мне {myAge} лет, я учусь в группе {myGroup}.");
 
+
+
+// Текстовый ввод
+Console.Write("Введите ваше имя: ");
+string name2 = Console.ReadLine();
+Console.WriteLine($"Привет, {name2}!");
+
+// Числовой ввод с конвертацией
+Console.Write("Введите ваш возраст: ");
+string input = Console.ReadLine();
+int age2 = int.Parse(input);
+Console.WriteLine($"Через 10 лет вам будет {age2 + 10} лет.");
