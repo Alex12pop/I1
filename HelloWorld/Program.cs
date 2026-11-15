@@ -170,3 +170,50 @@
 
 
 
+string favoriteMedia = "LuckyStar"; 
+int favoriteNumber = 7;
+double piValue = 3.1415926535;
+char favoriteLetter = 'Z';
+
+Console.WriteLine($"Любимая игра/кино/аниме: {favoriteMedia}");
+Console.WriteLine($"Любимая цифра: {favoriteNumber}");
+Console.WriteLine($"Значение числа пи: {piValue}");
+Console.WriteLine($"Любимая буква алфавита: {favoriteLetter}");
+
+
+Console.WriteLine("I");
+Console.WriteLine("need");
+Console.WriteLine("more");
+Console.WriteLine("power!");
+
+
+Console.WriteLine("\"Hello There\"");
+
+
+
+int monitorPrice = int.Parse(Console.ReadLine());
+int casePrice = int.Parse(Console.ReadLine());
+int keyboardPrice = int.Parse(Console.ReadLine());
+int mousePrice = int.Parse(Console.ReadLine());
+
+int totalCostOnePc = monitorPrice + casePrice + keyboardPrice + mousePrice;
+int totalCostThreePcs = totalCostOnePc * 3;
+
+Console.WriteLine(totalCostThreePcs);
+
+
+
+int a = int.Parse(Console.ReadLine());
+int b = int.Parse(Console.ReadLine());
+
+
+double result = 3 * Math.Pow(a + b, 3) + 275 * Math.Pow(b, 2) - 127 * a - 41;
+
+Console.WriteLine(result);
+
+
+double celsius = double.Parse(Console.ReadLine());
+
+double fahrenheit = (celsius * 9 / 5) + 32;
+
+Console.WriteLine($"Температура: {fahrenheit}°F");
