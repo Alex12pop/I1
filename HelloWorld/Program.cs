@@ -33,13 +33,23 @@
 
 
 
-// Текстовый ввод
-Console.Write("Введите ваше имя: ");
-string name2 = Console.ReadLine();
-Console.WriteLine($"Привет, {name2}!");
+// // Текстовый ввод
+// Console.Write("Введите ваше имя: ");
+// string name2 = Console.ReadLine();
+// Console.WriteLine($"Привет, {name2}!");
 
-// Числовой ввод с конвертацией
-Console.Write("Введите ваш возраст: ");
-string input = Console.ReadLine();
-int age2 = int.Parse(input);
-Console.WriteLine($"Через 10 лет вам будет {age2 + 10} лет.");
+// // Числовой ввод с конвертацией
+// Console.Write("Введите ваш возраст: ");
+// string input = Console.ReadLine();
+// int age2 = int.Parse(input);
+// Console.WriteLine($"Через 10 лет вам будет {age2 + 10} лет.");
+
+
+
+int x = 10;
+int y = 3;
+Console.WriteLine(x + y); // 13
+Console.WriteLine(x - y); // 7
+Console.WriteLine(x * y); // 30
+Console.WriteLine(x / y); // 3 (целочисленное деление!)
+Console.WriteLine(x % y); // 1 (остаток от деления)
